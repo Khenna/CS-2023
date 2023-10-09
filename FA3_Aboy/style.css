@@ -1,8 +1,9 @@
  body{
           background-image: url=("https://i.pinimg.com/1200x/ea/c4/2f/eac42ffa5b8f48149ba9043e1be7684c.jpg");
           background-repeat:no-repeat;
-          background-position: center;          
-            }
+          background-position: center;  
+	  background-size: 960px 540px;
+   }
  h1{
 	 margin-left:auto;
 	 margin-right:auto;
@@ -13,7 +14,7 @@
 	 padding: 10px 15px;
          width:250px;
          margin-bottom:20px;
-			 }
+  }
  p{
 	margin-left: auto;
 	margin-right:auto;
