@@ -1,0 +1,14 @@
+body{
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698192000&semt=ais");
+}
+
+h1{
+  font-family: Display;
+  border: 5px 5px 5px 5px solid green;
+
+}
+
+h2{
+  font-family: monospaced;
+  border: 5px 5px 5px 5px solid green;
+}
