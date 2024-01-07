@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<link rel="stylesheet" href="style.css" >
+			<title> Project </title>
+		</head>
+		<body>
+			<div>
+				<a class="navigation-button" href="First website.html">Go to the previous page</a>
+			</div>
+			
+		 <div class="grid-wrapper">
+                <div>
+                    <img src="PIC (1).png">
+                </div>
+                <div>
+                    <img src="PIC (6).jpg">
+                </div>
+                <div>
+                    <img src="PIC (3).jpeg">
+                </div>
+                <div>
+                    <img src="PIC (4).jpg">
+                </div>
+                <div>
+                    <img src="PIC (5).jpg">
+                </div>
+				<div>
+                    <img src="PIC (7).jpg">
+                </div>
+				<div>
+                    <img src="PIC (8).jpg">
+                </div>
+            </div><br>
+			
+		<h4> Now let's see if you've learned something</h4><br>			
+			
+					
+	Q1. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-love.png">; <br>
+        <input type="radio" name="question1" > LIKE<br>
+        <input type="radio" name="question1" > LIED<br>
+        <input type="radio" name="question1" id="correct1"> LOVE<br>
+        <input type="radio" name="question1" > KISS<br>
+		
+
+     Q2. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-family.png">;<br>
+        <input type="radio" name="question2" id="correct2" > FAMILY<br>
+        <input type="radio" name="question2" > FLAMES<br>
+        <input type="radio" name="question2" > GOODS<br>
+        <input type="radio" name="question2" > GREAT<br>
+
+     Q3. What is the number that was shown in this photo?<br>
+        <img src="Screenshot-8.png">;<br>
+        <input type="radio" name="question3" > 5<br>
+        <input type="radio" name="question3" > 9<br>
+        <input type="radio" name="question3" > 3<br>
+        <input type="radio" name="question3" id="correct3" > 8<br>
+
+     Q4. What is the letter that was shown in this photo?<br>
+        <img src="Screenshot-R.png">;<br>
+        <input type="radio" name="question4" > Letter V<br>
+        <input type="radio" name="question4" > Letter E<br>
+        <input type="radio" name="question4" id="correct4"> Letter R<br>
+        <input type="radio" name="question4" > Letter A<br>
+		
+	Q5. What is the words that was shown in this photo?<br>
+        <img src="Screenshot-thank you.png">; <br>
+        <input type="radio" name="question5" > Goodbye<br>
+        <input type="radio" name="question5" > Hello<br>
+        <input type="radio" name="question5" > Please<br>
+        <input type="radio" name="question5" id="correct5"> Thank you<br>
+		
+	Q6. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-please.png">; <br>
+        <input type="radio" name="question6" > Thank you<br>
+        <input type="radio" name="question6" > Hello<br>
+        <input type="radio" name="question6" id="correct6"> Please<br>
+        <input type="radio" name="question6" > No<br>
+		
+	Q7. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-no.png">; <br>
+        <input type="radio" name="question7" > Thank you<br>
+        <input type="radio" name="question7" > Hello<br>
+        <input type="radio" name="question7" > Please<br>
+        <input type="radio" name="question7" id="correct7"> No<br>
+		
+	Q8. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-online.png">; <br>
+        <input type="radio" name="question8" id="correct8" > Online<br>
+        <input type="radio" name="question8" > Hello<br>
+        <input type="radio" name="question8" > Omelette<br>
+        <input type="radio" name="question8" > Offline<br>
+		
+	Q9. What is the letter that was shown in this photo?<br>
+        <img src="Screenshot-X.png">; <br>
+        <input type="radio" name="question9" > B<br>
+        <input type="radio" name="question9" > S<br>
+        <input type="radio" name="question9" > Q<br>
+        <input type="radio" name="question9" id="correct9"> X<br>
+		
+	Q10. What is the word that was shown in this photo?<br>
+        <img src="Screenshot-where.png">; <br>
+        <input type="radio" name="question10" > world<br>
+        <input type="radio" name="question10" id="correct10"> Where<br>
+        <input type="radio" name="question10" > what<br>
+        <input type="radio" name="question10" > When<br>
+
+        <input type="submit" name="submit" vale="submitQuiz" onclick="
+            result()">
+			
+            <script type="text/javascript">
+                function result() {
+                    // body...
+                    var score=0;
+                    if (document.getElementById('correct1').checked)
+                     {
+                        score++;
+                     }
+                     if (document.getElementById('correct2').checked)
+                     {
+                        score++;
+                     }
+                     if (document.getElementById('correct3').checked)
+                     {
+                        score++;
+                     }
+                     if (document.getElementById('correct4').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct5').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct6').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct7').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct8').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct9').checked)
+                     {
+                        score++;
+                     }
+					 if (document.getElementById('correct10').checked)
+                     {
+                        score++;
+                     }
+            
+                     document.write("Your score is:" +score );
+                }
+</script>
+			<h4> Additional exercises</h4> <br>
+			
+			<div class="pdf-container">
+				<embed src="sign-language-flashcards.pdf" type="application/pdf" />
+			</div>
+			
+			<div>
+				<a class="navigation-button" href="Third website.html">Go to next page</a>
+			</div>
+		</body>
+</html>
+			
